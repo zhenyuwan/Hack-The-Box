@@ -4,3 +4,9 @@ description: SharpHound, BloodHound, Active Directory, ASREPRoasting,DCSync Atta
 
 # Hack the box - Sauna
 
+{% embed url="https://0xdf.gitlab.io/2020/07/18/htb-sauna.html#shell-as-fsmith" %}
+
+注意事项
+
+在使用sharphound收集AD信息时，不要使用kali自带的sharphound，需要从github上下载最新的bloodhound.exe.
+
