@@ -32,3 +32,16 @@ cd \\10.10.16.3\smb # 将当前的文件夹转到smb
 ## 数据处理
 
 在将SharpHound.exe产生的zip文件传到kali后，用Upload Data而不是Import Graph来导入文件。
+
+## DCSync 攻击
+
+{% embed url="https://blog.netwrix.com/2021/11/30/what-is-dcsync-an-introduction" %}
+关于DCSync 攻击不错的文章
+{% endembed %}
+
+总结一下文章的内容就是一些拥有
+
+* Replicating Directory Changes
+* Replicating Directory Changes All
+
+权限的账户可以通过request domain replication获得用户密码的哈希函数。
