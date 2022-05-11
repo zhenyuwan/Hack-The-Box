@@ -13,3 +13,5 @@ description: SharpHound, BloodHound, Active Directory, ASREPRoasting,DCSync Atta
 {% embed url="https://0xdf.gitlab.io/2018/10/11/pwk-notes-post-exploitation-windows-file-transfers.html" %}
 
 当需要从windows传送文件到kali上时，可以使用netcat。大致思路是在kali上下载好nc.exe，使用python3 -m http.server 这个指令启动一个临时的http服务器。在Windows上将nc.exe下载并使用nc.exe 和kali自带的netcat传送文件。
+
+在使用python impacket中的smb模组时，用impacket-smbserver
