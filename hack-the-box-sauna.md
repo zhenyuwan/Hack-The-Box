@@ -44,4 +44,9 @@ cd \\10.10.16.3\smb # 将当前的文件夹转到smb
 * Replicating Directory Changes
 * Replicating Directory Changes All
 
-权限的账户可以通过request domain replication获得用户密码的哈希函数。
+权限的账户可以通过request domain replication获得用户密码的哈希函数（hash）。
+
+## 通过WMI和Hash提权
+
+{% embed url="https://www.ired.team/offensive-security/privilege-escalation/pass-the-hash-privilege-escalation-with-invoke-wmiexec" %}
+
