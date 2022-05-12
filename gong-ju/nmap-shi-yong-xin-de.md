@@ -10,3 +10,6 @@
 
 `cat nmap.txt | awk '{print $1}' | sed 's/[^0-9]*//g' | sed '/^$/d' > ports.txt`
 
+awk '{print $1}' 会打印第一列的数据
+
+sed 's/\[^0-9]\*//g' 将第一列的数据只保留数字，也就是端口
