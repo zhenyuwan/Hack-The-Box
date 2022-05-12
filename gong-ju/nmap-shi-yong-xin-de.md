@@ -8,6 +8,8 @@
 
 \--min-rate 每秒最少发送包的数量
 
+``
+
 `cat nmap.txt | awk '{print $1}' | sed 's/[^0-9]*//g' | sed '/^$/d' | paste -s -d, - > ports.txt`
 
 awk '{print $1}' 会打印第一列的数据
@@ -19,6 +21,12 @@ sed '/^$/d' 将第一列数据的空行去掉
 paste -s -d, - 这个工具可以把一列数据转换成CSV文件
 
 &#x20;\> ports.txt 将处理过的数据保存进入ports.txt文件
+
+
+
+`nmap -sC -sV -p $(cat ports.txt) IP_ADDR`
+
+`nmap`&#x20;
 
 
 
