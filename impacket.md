@@ -18,7 +18,13 @@
 
 \-request 返回用户TGS，并以hashcat形式输出
 
-如果在运行的时候遇到了
+如果在运行的时候遇到了Kerberos SessionError: KRB\__AP\_ERR\_SKEW_
+
+这是因为本地时间和Domain Controller的时间不一样
+
+需要运行指令：`ntpdate IP_ADDR`
+
+**IP\_ADDR** 为靶机IP
 
 {% embed url="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/kerberoast" %}
 
