@@ -34,9 +34,9 @@
 
 **$(cat ports.txt)** 是将cat ports.txt的结果当做一个数据输入指令
 
-## Look up nse script
+## 寻找NSE脚本
 
-locate -r  '\\.nse$'
+`locate -r  '\.nse$'`
 
 **-r** 让locate 读取正则表达式
 
@@ -46,7 +46,7 @@ locate -r  '\\.nse$'
 
 在找的具体的文件后，可以使用 grep 抓取nse script类别信息
 
-locate -r '\\.nse$' | xargs grep categories
+`locate -r '\.nse$' | xargs grep categories`
 
 xargs 的作用在于将 locate 指令返回的信息输入grep.
 
