@@ -14,11 +14,11 @@
 
 ## GetUserSPNs.py&#x20;
 
-GetUserSPNs.py&#x20;
+`GetUserSPNs.py -request -dc-ip IPADDR DOMAINNAME/USER_Name -save -outputfile GetUser.out`
 
+\-request 返回用户TGS，并以hashcat形式输出
 
-
-## GetUserSPNs.py
+如果在运行的时候遇到了
 
 {% embed url="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/kerberoast" %}
 
