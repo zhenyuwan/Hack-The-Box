@@ -10,3 +10,7 @@
 
 **active.htb/svc\_tgs** 是target，为必填parameter
 
+
+
+## GetUserSPNs.py
+
