@@ -16,3 +16,4 @@
 * [SMB 枚举](smb-mei-ju.md)
 * [Xen Hypervisor](xen-hypervisor.md)
 * [DNS](dns.md)
+* [Windows AD 杂七杂八](windows-ad-za-qi-za-ba.md)
