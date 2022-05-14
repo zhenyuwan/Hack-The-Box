@@ -15,3 +15,4 @@
 
 * [SMB 枚举](smb-mei-ju.md)
 * [Xen Hypervisor](xen-hypervisor.md)
+* [DNS](dns.md)
