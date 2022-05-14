@@ -9,7 +9,7 @@
 
 ## 工具
 
-* [Nmap 使用心得](gong-ju/nmap-shi-yong-xin-de.md)
+* [Nmap 使用笔记](gong-ju/nmap-shi-yong-bi-ji.md)
 
 ***
 

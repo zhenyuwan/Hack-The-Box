@@ -1,4 +1,4 @@
-# Nmap 使用心得
+# Nmap 使用笔记
 
 `nmap -p- --min-rate 10000 IP_ADDR > nmap.txt`
 
@@ -42,3 +42,14 @@ locate -r  '\\.nse$'
 
 **$** 指寻找任何一行以.nse后缀结尾的文件
 
+
+
+在找的具体的文件后，可以使用 grep 抓取nse script类别信息
+
+locate -r '\\.nse$' | xargs grep categories
+
+xargs 的作用在于将 locate 指令返回的信息输入grep.
+
+比方说 locate 里有一个nse脚本位置是 /usr/share/nmap/scripts/alp-brute.nse
+
+xargs 会执行 grep categories /usr/share/nmap/scripts/alp-brute.nse 这个指令
