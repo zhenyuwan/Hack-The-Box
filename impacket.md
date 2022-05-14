@@ -12,5 +12,13 @@
 
 
 
+## GetUserSPNs.py&#x20;
+
+GetUserSPNs.py&#x20;
+
+
+
 ## GetUserSPNs.py
+
+{% embed url="https://book.hacktricks.xyz/windows-hardening/active-directory-methodology/kerberoast" %}
 
