@@ -6,6 +6,7 @@
 * [Hack the box - Blue](hack-the-box-blue.md)
 * [Hack the box - Sauna](hack-the-box-sauna.md)
 * [Hack the box - Active](hack-the-box-active.md)
+* [Hack the box - Resolute](hack-the-box-resolute.md)
 
 ## 工具
 
@@ -14,7 +15,6 @@
 ***
 
 * [SMB 枚举](smb-mei-ju.md)
-* [Xen Hypervisor](xen-hypervisor.md)
 * [DNS](dns.md)
 * [Windows AD 杂七杂八](windows-ad-za-qi-za-ba.md)
 * [Impacket](impacket.md)
