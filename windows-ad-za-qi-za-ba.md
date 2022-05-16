@@ -22,4 +22,4 @@ The goal of Kerberoasting is to harvest TGS tickets for services that run on beh
 
 ## RPC anonymous login
 
-一些windows上的应用可能需要 RPC 的一些用户为anonymous才能登入。为了确保backward compatibility, 至今windows还保持着默认RPC anonymous用户登入。
+一些windows上的应用可能需要 [RPC](rpc.md) 的一些用户为anonymous才能登入。为了确保backward compatibility, 至今windows还保持着默认RPC anonymous用户登入。
